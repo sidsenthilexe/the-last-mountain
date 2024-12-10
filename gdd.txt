@@ -1,0 +1,61 @@
+The Last Mountain
+Design Document
+By Siddharth Senthil for High Seas Jam
+
+"Fly, you fools!"
+
+Summary
+    Game Pitch:
+    The Last Mountain is a time based 2D combat game revolving around a total of ten days and ten nights of combat against a fearful enemy.
+
+    Insipration:
+    Lord Of The Rings
+        Gandalf's battle with the Balrog was a primary inspiration for the game's concept.
+    Noita
+        Noita is a game with similar player mechanics, especially around the magic portion. Noita's art stile was also an inspiration.
+    
+    Player Experience:
+    The player must battle and chase the enemy for 8 in game days and nights, culminating in a final battle of 2 in game days and nights at the peak of the Last Mountain.
+    They must strategically use their resources to push the Enemy to its limits and put pressure on it.
+
+    Platform:
+    The game is developed to be released on Windows and itch.io
+
+    Development Software:
+    Godot v4.3 and Visual Studio Code for programming
+    Libresprite for pixel art
+    Garageband for music and SFX
+
+Gameplay Overview:
+    The player controls the Grey Wizard, managing magic and energy from his weak state at the start of the game. By pressuring the Enemy, the player continues to gain
+    an advantage throughout the game and defeating it.
+
+Theme Interpretation (Magic):
+    The player has magic capabilities, and must use them strategically to reach their goal.
+
+Mechanics
+    Main and Progression:
+        Jump (Up)
+            2x Jump
+
+        Move left (Left)
+            Dash (L Shift)
+
+        Move right (Right)
+            Dash (L Shift)
+
+        Attack melee (Z)
+
+        Healing (A)
+            Shield of the Wizards           <- Transparent dome shield for 10s
+
+x       x       x       x       x       x      x       x       x       x       x    
+ 
+            Lightning Strike (X)            <- Summon a lightning bolt
+                Sword of Power              <- Channel lightning through sword to increase melee power and range
+            
+            Blinding Light (C)              <- Strike with a blast of light rendering the enemy immobilized for 5s
+                Light of the Gods           <- Cast a ray of light at the opponent, setting the enemy ablaze
+
+            Counter-Spell (S)               <- Counter some magical spells to negate their effects
+                Destructive Blast           <- Raises his staff and slams it down to create a shock wave     
